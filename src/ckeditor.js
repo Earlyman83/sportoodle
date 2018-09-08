@@ -23,6 +23,7 @@ import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
+import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave';
 
 export default class InlineEditor extends InlineEditorBase {}
 
@@ -44,7 +45,8 @@ InlineEditor.builtinPlugins = [
 	Link,
 	List,
 	Paragraph,
-	Alignment
+	Alignment,
+	Autosave
 ];
 
 // Editor configuration.
